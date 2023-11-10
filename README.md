@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Proyecto Front-End de Sitio Web Usando API
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto forma parte del curso "Front-End de Sitio Web Usando API" ofrecido por Argentina Programa, como parte del programa de Programación Web Front-end.
 
-## Available Scripts
+## Descripción del Proyecto
 
-In the project directory, you can run:
+Este proyecto consiste en una aplicación web que utiliza datos en tiempo real provenientes de API para mostrar información sobre el clima y el tráfico de la Ciudad Autónoma de Buenos Aires.
 
-### `npm start`
+## DataClima
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Implementación
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+La sección de DataClima utiliza la API de pronóstico del tiempo para obtener información sobre la temperatura actual, la velocidad del viento y otros datos climáticos. La información se presenta de manera visual y clara para el usuario, incluyendo un gráfico de temperatura y un indicador visual de día o noche.
 
-### `npm test`
+### Creación
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+La implementación de DataClima fue realizada utilizando React, una biblioteca de JavaScript para construir interfaces de usuario. Se utilizó la API de pronóstico del tiempo para obtener datos en tiempo real y se aplicaron técnicas de diseño y visualización para mejorar la experiencia del usuario.
 
-### `npm run build`
+## DataTrafico
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Implementación
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+La sección de DataTrafico utiliza la API de datos de tráfico de la Ciudad de Buenos Aires para mostrar información en tiempo real sobre la ubicación y el movimiento de los colectivos. Permite al usuario seleccionar una línea de colectivo específica y ver su ubicación en el mapa.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Creación
 
-### `npm run eject`
+DataTrafico fue implementado también utilizando React, aprovechando la capacidad de la biblioteca para crear interfaces interactivas y dinámicas. La aplicación hace uso de la API de datos de tráfico para mantener actualizada la información sobre la ubicación de los colectivos.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Librerías Utilizadas
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [React](https://reactjs.org/)
+- [Recharts](https://recharts.org/)
+- [Leaflet](https://leafletjs.com/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Creador
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este proyecto React fue creado por Mariano Llanes. Agradezco a los ayudantes de prácticos y a mis compañeros que brindaron su colaboración en el desarrollo de este proyecto.
