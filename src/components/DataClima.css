@@ -1,0 +1,38 @@
+/* Estilos para el contenedor de gráficos */
+.chart-container {
+  width: 100%; /* Ancho completo del contenedor */
+  margin: 0; /* Sin margen */
+  padding: 0; /* Sin relleno */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra horizontalmente los elementos en el contenedor */
+  justify-content: center; /* Centra verticalmente los elementos en el contenedor */
+}
+
+/* Estilos para los contenedores de tarjetas climáticas */
+.weather-cards {
+  display: flex;
+  flex-direction: column; /* Cambia la visualización a "column" para que se muestren en una columna */
+  align-items: center; /* Centra horizontalmente los elementos en el contenedor */
+}
+
+/* Estilos para las tarjetas climáticas individuales */
+.weather-card {
+  width: 300px;
+  margin: 5px;
+  text-align: center; /* Alinea el contenido al centro de la tarjeta */
+}
+
+.date-time-container {
+  display: flex;
+  align-items: center; /* Centra verticalmente el contenido */
+  justify-content: space-between; /* Espaciado uniforme entre los elementos */
+}
+
+.date-time-container > div {
+  flex: 1; /* Cada div ocupa una parte igual del contenedor */
+}
+
+.date-time-container h1 {
+  margin: 0; /* Elimina el margen superior e inferior de los encabezados */
+}
