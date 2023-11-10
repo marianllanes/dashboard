@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/dashboard/static/css/main.a95b1717.css",
+    "main.js": "/dashboard/static/js/main.da38aed6.js",
+    "static/js/787.1cd31a9e.chunk.js": "/dashboard/static/js/787.1cd31a9e.chunk.js",
+    "static/media/noche.gif": "/dashboard/static/media/noche.0a6f1ad7843edaa3204c.gif",
+    "static/media/dia.gif": "/dashboard/static/media/dia.96eaba73786ca4bca96d.gif",
+    "index.html": "/dashboard/index.html",
+    "main.a95b1717.css.map": "/dashboard/static/css/main.a95b1717.css.map",
+    "main.da38aed6.js.map": "/dashboard/static/js/main.da38aed6.js.map",
+    "787.1cd31a9e.chunk.js.map": "/dashboard/static/js/787.1cd31a9e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a95b1717.css",
+    "static/js/main.da38aed6.js"
+  ]
+}
